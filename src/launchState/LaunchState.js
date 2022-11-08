@@ -3,7 +3,6 @@ import "./LaunchState.css";
 import useLaunchData from "../launchData/LaunchData";
 import { useState } from "react";
 import { useEffect } from "react";
-import img from "./background-edited.png";
 
 const LaunchState = () => {
   const { loading, data } = useLaunchData();
