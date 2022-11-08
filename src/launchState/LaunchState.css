@@ -1,11 +1,10 @@
-.background {
-  height: 100vh;
+body{  background: rgb(247, 247, 247);
+	background: linear-gradient(
+	  0deg,
+	  rgba(247, 247, 247, 1) 0%,
+	  rgba(228, 228, 228, 1) 100%
+	);}
 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 .main-container {
   width: 100%;
@@ -14,12 +13,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: rgb(247, 247, 247);
-  background: linear-gradient(
-    0deg,
-    rgba(247, 247, 247, 1) 0%,
-    rgba(228, 228, 228, 1) 100%
-  );
+
 }
 
 .text {
@@ -30,7 +24,6 @@
   -webkit-text-fill-color: transparent;
   font-size: 15rem;
   font-family: "Poppins", sans-serif;
-  color: #ffffff;
 }
 
 footer {
@@ -50,3 +43,21 @@ footer {
 	font-size: 0.5rem;
 
 }
+
+@media only screen and (max-width: 1281px) {
+
+	.text{
+		font-size: 8rem;
+	}
+  }
+
+  @media only screen and (max-width: 844px) {
+	footer{
+		font-size: 0.6rem;
+	
+	}
+
+	.text{
+		font-size: 3rem;
+	}
+  }
