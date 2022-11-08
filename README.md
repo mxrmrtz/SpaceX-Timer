@@ -7,7 +7,7 @@ very cool
 
 In the project directory, you can run:
 
-### 'npm install'
+### `npm install`
 
 This will install all packages you need for the project
 
