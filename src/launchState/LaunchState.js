@@ -40,7 +40,7 @@ const LaunchState = () => {
           {formatDay}:{formatTime}
           
         </h1>
-        <footer><p>see when the last launch of spacex happened</p>
+        <footer><p>see how long its been since last spacex launch</p>
         <div className="footer-div"><h3>made by maxi</h3></div>
         
         </footer>
