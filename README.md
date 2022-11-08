@@ -7,10 +7,6 @@ very cool
 
 In the project directory, you can run:
 
-### `npm install`
-
-This will install all packages you need for the project
-
 ### `npm start`
 
 Runs the app in the development mode.\
