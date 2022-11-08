@@ -3,7 +3,13 @@
 This project was made by using REACT.js and information from a API
 very cool
 
+### to start
+
 In the project directory, you can run:
+
+### 'npm install'
+
+This will install all packages you need for the project
 
 ### `npm start`
 
