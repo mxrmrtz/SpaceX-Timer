@@ -39,8 +39,12 @@ const LaunchState = () => {
 
         <h1 className="text">
           {formatDay}:{formatTime}
+          
         </h1>
-        <footer>created by maxi</footer>
+        <footer><p>see when the last launch of spacex happened</p>
+        <div className="footer-div"><h3>made by maxi</h3></div>
+        
+        </footer>
       </div>
     </>
   );
